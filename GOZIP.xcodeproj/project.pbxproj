@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05FB8E4E1B50ACC700A8C7A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FB8E4D1B50ACC700A8C7A8 /* AppDelegate.m */; };
+		05FB8E511B50ACC700A8C7A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FB8E501B50ACC700A8C7A8 /* main.m */; };
+		05FB8E541B50ACC700A8C7A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FB8E531B50ACC700A8C7A8 /* ViewController.m */; };
+		05FB8E561B50ACC700A8C7A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FB8E551B50ACC700A8C7A8 /* Assets.xcassets */; };
+		05FB8E591B50ACC700A8C7A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FB8E571B50ACC700A8C7A8 /* Main.storyboard */; };
+		05FB8E641B50ACC700A8C7A8 /* GOZIPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FB8E631B50ACC700A8C7A8 /* GOZIPTests.m */; };
+		05FB8E6F1B50ACC700A8C7A8 /* GOZIPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FB8E6E1B50ACC700A8C7A8 /* GOZIPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05FB8E601B50ACC700A8C7A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05FB8E411B50ACC700A8C7A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05FB8E481B50ACC700A8C7A8;
+			remoteInfo = GOZIP;
+		};
+		05FB8E6B1B50ACC700A8C7A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05FB8E411B50ACC700A8C7A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05FB8E481B50ACC700A8C7A8;
+			remoteInfo = GOZIP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FB8E491B50ACC700A8C7A8 /* GOZIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOZIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FB8E4C1B50ACC700A8C7A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05FB8E4D1B50ACC700A8C7A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05FB8E501B50ACC700A8C7A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05FB8E521B50ACC700A8C7A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		05FB8E531B50ACC700A8C7A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05FB8E551B50ACC700A8C7A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05FB8E581B50ACC700A8C7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05FB8E5A1B50ACC700A8C7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05FB8E5F1B50ACC700A8C7A8 /* GOZIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOZIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FB8E631B50ACC700A8C7A8 /* GOZIPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOZIPTests.m; sourceTree = "<group>"; };
+		05FB8E651B50ACC700A8C7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05FB8E6A1B50ACC700A8C7A8 /* GOZIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOZIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FB8E6E1B50ACC700A8C7A8 /* GOZIPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOZIPUITests.m; sourceTree = "<group>"; };
+		05FB8E701B50ACC700A8C7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05FB8E461B50ACC700A8C7A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FB8E5C1B50ACC700A8C7A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FB8E671B50ACC700A8C7A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05FB8E401B50ACC700A8C7A8 = {
+			isa = PBXGroup;
+			children = (
+				05FB8E4B1B50ACC700A8C7A8 /* GOZIP */,
+				05FB8E621B50ACC700A8C7A8 /* GOZIPTests */,
+				05FB8E6D1B50ACC700A8C7A8 /* GOZIPUITests */,
+				05FB8E4A1B50ACC700A8C7A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05FB8E4A1B50ACC700A8C7A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05FB8E491B50ACC700A8C7A8 /* GOZIP.app */,
+				05FB8E5F1B50ACC700A8C7A8 /* GOZIPTests.xctest */,
+				05FB8E6A1B50ACC700A8C7A8 /* GOZIPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05FB8E4B1B50ACC700A8C7A8 /* GOZIP */ = {
+			isa = PBXGroup;
+			children = (
+				05FB8E4C1B50ACC700A8C7A8 /* AppDelegate.h */,
+				05FB8E4D1B50ACC700A8C7A8 /* AppDelegate.m */,
+				05FB8E521B50ACC700A8C7A8 /* ViewController.h */,
+				05FB8E531B50ACC700A8C7A8 /* ViewController.m */,
+				05FB8E551B50ACC700A8C7A8 /* Assets.xcassets */,
+				05FB8E571B50ACC700A8C7A8 /* Main.storyboard */,
+				05FB8E5A1B50ACC700A8C7A8 /* Info.plist */,
+				05FB8E4F1B50ACC700A8C7A8 /* Supporting Files */,
+			);
+			path = GOZIP;
+			sourceTree = "<group>";
+		};
+		05FB8E4F1B50ACC700A8C7A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05FB8E501B50ACC700A8C7A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05FB8E621B50ACC700A8C7A8 /* GOZIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				05FB8E631B50ACC700A8C7A8 /* GOZIPTests.m */,
+				05FB8E651B50ACC700A8C7A8 /* Info.plist */,
+			);
+			path = GOZIPTests;
+			sourceTree = "<group>";
+		};
+		05FB8E6D1B50ACC700A8C7A8 /* GOZIPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05FB8E6E1B50ACC700A8C7A8 /* GOZIPUITests.m */,
+				05FB8E701B50ACC700A8C7A8 /* Info.plist */,
+			);
+			path = GOZIPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05FB8E481B50ACC700A8C7A8 /* GOZIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FB8E731B50ACC700A8C7A8 /* Build configuration list for PBXNativeTarget "GOZIP" */;
+			buildPhases = (
+				05FB8E451B50ACC700A8C7A8 /* Sources */,
+				05FB8E461B50ACC700A8C7A8 /* Frameworks */,
+				05FB8E471B50ACC700A8C7A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GOZIP;
+			productName = GOZIP;
+			productReference = 05FB8E491B50ACC700A8C7A8 /* GOZIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05FB8E5E1B50ACC700A8C7A8 /* GOZIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FB8E761B50ACC700A8C7A8 /* Build configuration list for PBXNativeTarget "GOZIPTests" */;
+			buildPhases = (
+				05FB8E5B1B50ACC700A8C7A8 /* Sources */,
+				05FB8E5C1B50ACC700A8C7A8 /* Frameworks */,
+				05FB8E5D1B50ACC700A8C7A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05FB8E611B50ACC700A8C7A8 /* PBXTargetDependency */,
+			);
+			name = GOZIPTests;
+			productName = GOZIPTests;
+			productReference = 05FB8E5F1B50ACC700A8C7A8 /* GOZIPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05FB8E691B50ACC700A8C7A8 /* GOZIPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FB8E791B50ACC700A8C7A8 /* Build configuration list for PBXNativeTarget "GOZIPUITests" */;
+			buildPhases = (
+				05FB8E661B50ACC700A8C7A8 /* Sources */,
+				05FB8E671B50ACC700A8C7A8 /* Frameworks */,
+				05FB8E681B50ACC700A8C7A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05FB8E6C1B50ACC700A8C7A8 /* PBXTargetDependency */,
+			);
+			name = GOZIPUITests;
+			productName = GOZIPUITests;
+			productReference = 05FB8E6A1B50ACC700A8C7A8 /* GOZIPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05FB8E411B50ACC700A8C7A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kyle Revony";
+				TargetAttributes = {
+					05FB8E481B50ACC700A8C7A8 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					05FB8E5E1B50ACC700A8C7A8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 05FB8E481B50ACC700A8C7A8;
+					};
+					05FB8E691B50ACC700A8C7A8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 05FB8E481B50ACC700A8C7A8;
+					};
+				};
+			};
+			buildConfigurationList = 05FB8E441B50ACC700A8C7A8 /* Build configuration list for PBXProject "GOZIP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05FB8E401B50ACC700A8C7A8;
+			productRefGroup = 05FB8E4A1B50ACC700A8C7A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05FB8E481B50ACC700A8C7A8 /* GOZIP */,
+				05FB8E5E1B50ACC700A8C7A8 /* GOZIPTests */,
+				05FB8E691B50ACC700A8C7A8 /* GOZIPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05FB8E471B50ACC700A8C7A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FB8E561B50ACC700A8C7A8 /* Assets.xcassets in Resources */,
+				05FB8E591B50ACC700A8C7A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FB8E5D1B50ACC700A8C7A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FB8E681B50ACC700A8C7A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05FB8E451B50ACC700A8C7A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FB8E541B50ACC700A8C7A8 /* ViewController.m in Sources */,
+				05FB8E511B50ACC700A8C7A8 /* main.m in Sources */,
+				05FB8E4E1B50ACC700A8C7A8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FB8E5B1B50ACC700A8C7A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FB8E641B50ACC700A8C7A8 /* GOZIPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FB8E661B50ACC700A8C7A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FB8E6F1B50ACC700A8C7A8 /* GOZIPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05FB8E611B50ACC700A8C7A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05FB8E481B50ACC700A8C7A8 /* GOZIP */;
+			targetProxy = 05FB8E601B50ACC700A8C7A8 /* PBXContainerItemProxy */;
+		};
+		05FB8E6C1B50ACC700A8C7A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05FB8E481B50ACC700A8C7A8 /* GOZIP */;
+			targetProxy = 05FB8E6B1B50ACC700A8C7A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05FB8E571B50ACC700A8C7A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05FB8E581B50ACC700A8C7A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05FB8E711B50ACC700A8C7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		05FB8E721B50ACC700A8C7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		05FB8E741B50ACC700A8C7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GOZIP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = krevony.GOZIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05FB8E751B50ACC700A8C7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GOZIP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = krevony.GOZIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05FB8E771B50ACC700A8C7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GOZIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = krevony.GOZIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOZIP.app/Contents/MacOS/GOZIP";
+			};
+			name = Debug;
+		};
+		05FB8E781B50ACC700A8C7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GOZIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = krevony.GOZIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOZIP.app/Contents/MacOS/GOZIP";
+			};
+			name = Release;
+		};
+		05FB8E7A1B50ACC700A8C7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GOZIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = krevony.GOZIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GOZIP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		05FB8E7B1B50ACC700A8C7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GOZIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = krevony.GOZIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GOZIP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05FB8E441B50ACC700A8C7A8 /* Build configuration list for PBXProject "GOZIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FB8E711B50ACC700A8C7A8 /* Debug */,
+				05FB8E721B50ACC700A8C7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05FB8E731B50ACC700A8C7A8 /* Build configuration list for PBXNativeTarget "GOZIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FB8E741B50ACC700A8C7A8 /* Debug */,
+				05FB8E751B50ACC700A8C7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05FB8E761B50ACC700A8C7A8 /* Build configuration list for PBXNativeTarget "GOZIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FB8E771B50ACC700A8C7A8 /* Debug */,
+				05FB8E781B50ACC700A8C7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05FB8E791B50ACC700A8C7A8 /* Build configuration list for PBXNativeTarget "GOZIPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FB8E7A1B50ACC700A8C7A8 /* Debug */,
+				05FB8E7B1B50ACC700A8C7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05FB8E411B50ACC700A8C7A8 /* Project object */;
+}
